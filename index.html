@@ -3,26 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Clipboard landing page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  A history of everything you copy
-
-  Clipboard allows you to track and organize everything you 
-  copy. Instantly access your clipboard on all your devices.
-
-  Download for iOS
-  Download for Mac
+  <main>
+    <div class="hero">
+      <div class="inner">
+        <div class="brand-group hero__brand-group">
+          <div class="brand hero__brand">
+            <svg class="brand__logo hero__clipboard-logo" width="125" height="125" xmlns="http://www.w3.org/2000/svg">
+              <g stroke="#26BBA4" stroke-width="10" fill="none" fill-rule="evenodd"><circle cx="62.5" cy="62.5" r="57.5"/><path d="M85.481 85.481c-12.692 12.692-33.27 12.692-45.962 0s-12.692-33.27 0-45.962 33.27-12.692 45.962 0" stroke-linecap="round"/></g>
+            </svg> <!-- end logo -->
+          </div> <!-- end brand -->
+        </div> <!-- end brand group -->
+        <hgroup class="copy hero__copy">
+          <h1 class="heading hero__heading">
+            A history of everything you copy
+          </h1>
+          <p class="sub-heading hero__sub-heading">
+            Clipboard allows you to track and organize everything you copy.
+            Instantly access your clipboard on all your devices.
+          </p>
+        </hgroup> <!-- end copy -->
+        <div class="btn-group hero__btn-group">
+          <a class="btn hero__btn hero__btn--ios" href="./download-ios.html" target="_block">Download for iOS</a>
+          <a class="btn hero__btn hero__btn--mac" href="./download-mac.html" target="_block">Download for Mac</a>
+        </div> <!-- end button group -->
+      </div>
+    </div> <!-- end hero -->
+  </main>
 
   Keep track of your snippets
 
