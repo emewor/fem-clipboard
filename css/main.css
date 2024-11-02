@@ -78,10 +78,10 @@ Hero
     background-color: var(--pri-clr__light-blue);
 }
 
+/* Features */
 /* 
-Features
+Snippets
 */
-
 .features__heading {
     margin: 2.75rem 0 1.125rem;
     font-size: 1.75rem;
@@ -106,7 +106,15 @@ Features
 
 .highlight__sub-heading {
     margin-top: 0.625rem;
-    padding: 0 5px;
+    padding: 0 0.3125rem;
+}
+
+/*
+Access
+*/
+
+.access__heading {
+    margin-top: 1.25rem;
 }
 
 /* 
