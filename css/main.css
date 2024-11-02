@@ -29,6 +29,49 @@
     margin: 0;
 }
 
+/* Main */
+/* 
+Hero
+*/
+.hero {
+    background-image: url("../images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.hero__brand-group {
+    margin: 4.5625rem 0 4rem;
+}
+
+.hero__brand {
+    margin: 0 auto;
+}
+
+.hero__copy {
+    padding: 0 0.3125rem;
+}
+
+.hero__heading {
+    margin-bottom: 1rem;
+}
+
+.hero__btn-group {
+    margin-top: 2.1875rem;
+    flex-direction: column;
+}
+
+.hero__btn {
+    margin: 0.9rem 0;
+}
+
+.btn--ios {
+    background-color: var(--pri-clr__strong-cyan);
+}
+
+.btn--mac {
+    background-color: var(--pri-clr__light-blue);
+}
+
 /* 
 Node general modifiers
 */

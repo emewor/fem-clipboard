@@ -1,0 +1,45 @@
+/* Inner */
+.inner {
+    padding: 3.125rem 1.625rem;
+}
+
+/* Brand */
+.brand-group, .brand {
+    display: flex;
+}
+
+/* Copy */
+.copy {
+    text-align: center;
+}
+
+.heading {
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--neu-clr__dark-grayish-blue);
+}
+
+.sub-heading {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    letter-spacing: 0.00625rem;
+    color: var(--neu-clr__grayish-blue);
+}
+
+/* Button */
+.btn-group {
+    display: flex;
+    padding: 0 0.3125rem;
+    width: 100%;
+}
+
+.btn {
+    border-radius: 3rem;
+    box-shadow: 0 0.125rem 0.25rem var(--neu-clr__dark-grayish-blue);
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.0625rem;
+    color: hsl(0, 50%, 100%);
+}
