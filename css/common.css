@@ -3,6 +3,13 @@
     padding: 3.125rem 1.625rem;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.8125rem;
+    overflow: hidden;
+}
+
 /* Brand */
 .brand-group, .brand {
     display: flex;
@@ -14,7 +21,7 @@
 }
 
 .heading {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 500;
     color: var(--neu-clr__dark-grayish-blue);
 }
@@ -42,4 +49,14 @@
     text-decoration: none;
     letter-spacing: 0.0625rem;
     color: hsl(0, 50%, 100%);
+}
+
+/* Image */
+
+.img-group {
+    width: 100%;
+}
+
+.img-group__image {
+    max-width: 100%;
 }
