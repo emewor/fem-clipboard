@@ -60,3 +60,24 @@
 .img-group__image {
     max-width: 100%;
 }
+
+/* Card */
+
+.card-group {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__img {
+    width: fit-content;
+}
+
+.card__heading {
+    font-size: 1.5rem;
+}

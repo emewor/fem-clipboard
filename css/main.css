@@ -122,6 +122,21 @@ Access
 }
 
 /* 
+Workflow
+*/
+
+.workflow__card-group {
+    flex-direction: column;
+}
+
+.workflow__card {
+    margin-bottom: 1.875rem;
+}
+
+.workflow__card-heading {
+    margin: 2.25rem 0 1.5rem;
+}
+/* 
 Node general modifiers
 */
 
