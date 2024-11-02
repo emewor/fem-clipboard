@@ -83,8 +83,12 @@ Hero
 Snippets
 */
 .features__heading {
-    margin: 2.75rem 0 1.125rem;
+    margin: 1.25rem 0 1.125rem;
     font-size: 1.75rem;
+}
+
+.snippets__heading {
+    margin-top: 2.75rem;
 }
 
 .snippets__sub-heading {
