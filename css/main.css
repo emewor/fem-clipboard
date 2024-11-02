@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Bai Jamjuree";
+    src: url("../fonts/BaiJamjuree-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Bai Jamjuree";
+    src: url("../fonts/BaiJamjuree-Bold.ttf");
+    font-weight: 600;
+}
+
+:root {
+    font-size: 16px;
+    /* Primary colors */
+    --pri-clr__strong-cyan: hsl(171, 66%, 44%);
+    --pri-clr__light-blue: hsl(233, 100%, 69%);
+    /* Neutral colors */
+    --neu-clr__dark-grayish-blue: hsl(210, 10%, 33%);
+    --neu-clr__grayish-blue: hsl(201, 11%, 66%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: "Bai Jamjuree";
+    margin: 0;
+}
+
+/* 
+Node general modifiers
+*/
+
+.node--hidden {
+    display: none;
+}
+
+.node--displayed {
+    display: block;
+}
+
+.node__pos--rel {
+    position: relative;
+}
+
+.node__pos--abs {
+    position: absolute;
+}
+
+.node__pos--fix {
+    position: fixed;
+}
