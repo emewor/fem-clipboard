@@ -93,3 +93,22 @@
 .social__link-icon {
     width: fit-content;
 }
+
+@media screen and (min-width: 1440px) {
+    /* Copy */
+
+    .heading {
+        font-size: 2.875rem;
+    }
+
+    .sub-heading {
+        font-size: 1.25rem;
+    }
+
+    /* Button */
+
+    .btn {
+        padding: 1rem 2.125rem;
+        width: fit-content;
+    }
+}

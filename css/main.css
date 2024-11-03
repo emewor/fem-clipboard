@@ -222,6 +222,45 @@ OS-Support
     margin: 0 1.25rem;
 }
 
+@media screen and (min-width: 1440px) {
+    /* Main */
+    /*
+    Hero
+    */
+    .hero {
+        background-image: url("../images/bg-header-desktop.png");
+    }
+
+    .hero__brand-group {
+        margin: 5rem 0 3.5625rem;
+    }
+    
+    .hero__copy {
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .hero__heading {
+        letter-spacing: -0.0375rem;
+    }
+
+    .hero__sub-heading {
+        margin-top: 1.125rem;
+        padding: 0 3.8rem;
+        line-height: 1.85rem;
+    }
+
+    .hero__btn-group {
+        margin-top: 2.875rem;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .hero__btn {
+        margin: 0 0.5rem;
+    }
+}
+
 /* 
 Node general modifiers
 */
