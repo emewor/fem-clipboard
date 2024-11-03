@@ -81,3 +81,15 @@
 .card__heading {
     font-size: 1.5rem;
 }
+
+/* Social */
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social__link-icon {
+    width: fit-content;
+}

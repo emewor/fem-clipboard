@@ -35,6 +35,23 @@
     margin: 0;
 }
 
+.nav {
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-item {
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+.nav-link {
+    font-size: 1.125rem;
+    text-decoration: none;
+    color: var(--neu-clr__dark-grayish-blue);
+}
+
 /* Main */
 /* 
 Hero
@@ -170,6 +187,39 @@ OS-Support
 
 .os-support__btn-group {
     flex-direction: column;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 9.2rem 1.625rem 3rem;
+}
+
+.footer__brand-group {
+    justify-content: center;
+}
+
+.footer__clipboard-logo {
+    width: 55px;
+    height: 55px;
+}
+
+.footer__backlinks {
+    margin: 1.75rem 0 2.8125rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__backlinks-item {
+    padding: 0.875rem;
+}
+
+.footer__social-link {
+    margin: 0 1.25rem;
 }
 
 /* 
