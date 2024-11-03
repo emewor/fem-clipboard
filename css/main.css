@@ -96,13 +96,13 @@ Hero
 }
 
 /* Features */
-/* 
-Snippets
-*/
 .features__heading {
     margin: 1.25rem 0 1.125rem;
     font-size: 1.75rem;
 }
+/* 
+Snippets
+*/
 
 .snippets__heading {
     margin-top: 2.75rem;
@@ -258,6 +258,69 @@ OS-Support
 
     .hero__btn {
         margin: 0 0.5rem;
+    }
+
+    /* Features */
+    
+        .features__heading {
+            margin: 3.25rem 0 1.5rem;
+            font-size: 2.1875rem;
+        }
+    
+        .features__sub-heading {
+            margin: 1rem auto;
+            padding: 0 3.5rem;
+            font-size: 18px;
+            line-height: 1.85rem;
+            width: 60%;
+        }
+    /*
+    Snippets
+    */
+    
+    .snippets__inner {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .snippets__sub-heading {
+        padding: 0 5rem;
+    }
+    
+    .snippets__content {    
+        flex-direction: row;
+        padding-top: 3.875rem;
+    }
+
+    .snippets__img-group {
+        width: 50%;
+        max-width: 50%;
+        overflow: visible;
+    }
+
+    .snippets__img-computer {
+        left: -2rem;
+        max-width: initial;
+    }
+    
+    .snippets__highlight {
+        margin: 2.875rem 0 2.25rem 6.875rem;
+    }
+
+    .highlight__copy {
+        margin-bottom: 3.75rem;
+        text-align: left;
+        width: 60%;
+    }
+
+    .highlight__heading {
+        font-size: 1.4375rem;
+    }
+    
+    .highlight__sub-heading {
+        padding: 0 0.5rem 0 0;
+        font-size: 1rem;
+        line-height: 1.75rem;
     }
 }
 
