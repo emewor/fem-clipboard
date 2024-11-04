@@ -343,6 +343,62 @@ OS-Support
     .access__img-group {
         width: fit-content;
     }
+    
+    /*
+    Workflow
+    */
+    
+    .workflow__heading {
+        margin-top: 0;
+    }
+
+    .workflow__sub-heading, .workflow__card-sub-heading {
+        font-size: 1.125rem;
+    }
+
+    .workflow__content {
+        padding-top: 3.5rem;
+    }
+    
+    .workflow__card-group {
+        display: grid;
+        grid-template-columns: 7.8125rem repeat(3, 1fr) 7.8125rem;
+        grid-template-areas: ". c-blacklist c-text c-preview .";
+    }
+
+    .workflow__card {
+        justify-content: start;
+    }
+    
+    .card__blacklist {
+        grid-area: c-blacklist;
+    }
+
+    .workflow__card-img {
+        display: flex;
+        align-items: start;
+        height: 2.5rem;
+    }
+    
+    .workflow__card-heading {
+        margin-bottom: 1.125rem;
+        font-size: 1.46875rem;
+    }
+
+    .workflow__card-sub-heading {
+        padding: 0 0.5rem;
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+    
+    .card__text {
+        grid-area: c-text;
+    }
+
+    .card__preview {
+        grid-area: c-preview;
+    }
+    
 }
 
 /* 
