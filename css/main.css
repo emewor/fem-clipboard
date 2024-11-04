@@ -399,6 +399,32 @@ OS-Support
         grid-area: c-preview;
     }
     
+    /*
+    Partners
+    */
+    
+    .partners__inner {
+        padding: 2.25rem 7.5rem;
+    }
+    
+    .partners__content {
+        margin-top: 0;
+    }
+
+    .partners__brand-group {
+        flex-direction: row;
+    }
+
+    .partners__brand {
+        margin: 1.8rem 3rem;
+        justify-content: center;
+        width: min-content;
+    }
+    
+    .partners__brand-logo {
+        transform: initial;
+    }
+    
 }
 
 /* 
