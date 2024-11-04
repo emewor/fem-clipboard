@@ -95,6 +95,12 @@
 }
 
 @media screen and (min-width: 1440px) {
+    /* Links */
+    .nav-link:hover {
+        font-weight: 500;
+        color: var(--pri-clr__strong-cyan);
+    }
+    
     /* Copy */
 
     .heading {
@@ -110,5 +116,15 @@
     .btn {
         padding: 1rem 2.125rem;
         width: fit-content;
+    }
+
+    /* Social */
+
+    .social__link-icon:hover {
+        fill: var(--pri-clr__strong-cyan);
+    }
+    
+    .social__icon-path:hover {
+        fill: inherit;
     }
 }

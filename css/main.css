@@ -260,6 +260,12 @@ OS-Support
         margin: 0 0.5rem;
     }
 
+    .hero__btn:hover {
+        cursor: pointer;
+        font-weight: 500;
+        opacity: 0.75;
+    }
+
     /* Features */
     
         .features__heading {
