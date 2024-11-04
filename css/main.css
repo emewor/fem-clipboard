@@ -322,6 +322,27 @@ OS-Support
         font-size: 1rem;
         line-height: 1.75rem;
     }
+
+    /*
+    Access
+    */
+    
+    .access__inner {
+        padding-bottom: 1.25rem;
+    }
+
+    .access__heading {
+        margin: 2.875rem 0 1.25rem;
+    }
+
+    .access__content {
+        margin-top: 3.5rem;
+        align-items: center;
+    }
+
+    .access__img-group {
+        width: fit-content;
+    }
 }
 
 /* 
