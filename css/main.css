@@ -425,6 +425,19 @@ OS-Support
         transform: initial;
     }
     
+    /*
+    OS-Support
+    */
+
+    .os-support__heading {
+        margin-top: 2.625rem;
+    }
+
+    .os-support__btn-group {
+        margin-top: 2.625rem;
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 
 /* 
